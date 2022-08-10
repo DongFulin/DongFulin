@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1308747 */
+  src: url('https://at.alicdn.com/t/font_1308747_s8etlu9vffh.eot');
+  src: url('https://at.alicdn.com/t/font_1308747_s8etlu9vffh.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1308747_s8etlu9vffh.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1308747_s8etlu9vffh.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1308747_s8etlu9vffh.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1308747_s8etlu9vffh.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+	}
+.page{
+	background: #f8f8f8
+}
+
+
+
+@brandColor: #FA3E3F;
+@grayColor:#999;
+@grayColor6:#666;
+@fontMaincolor:#333;
+@fontsize-small:24upx;
+@fontsize-normal:28upx;
+@fontsize-large:36upx;
+@fontsize-largeX:42upx;
+
+.customNav {
+	// 自定义导航栏 paddingtop 混入样式类
+	padding-top: 100upx;
+	/*  #ifdef  APP-PLUS  */
+	padding-top: calc(100upx + var(--status-bar-height));
+	/*  #endif  */
+}
+
+.panel(@bgColor:#fff,@margin:16upx 0,@padding:30upx,@color:#333){
+	background-color:@bgColor;
+	margin:@margin;
+	padding:@padding;
+	color:@color;
+}
+
+.flex(@display: flex,@direction: row,@wrap:wrap,@justify:space-between){
+	display:@display;
+	flex-direction:@direction;
+	flex-wrap:@wrap;
+	justify-content:@justify
+}
+.flexBox{
+	.flex();
+}
+.brancdColor(@color:@brandColor){
+	color: @brandColor;
+}
+
+.hover:hover{
+	color: @brandColor
+}

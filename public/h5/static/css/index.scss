@@ -1,0 +1,88 @@
+view, navigator {
+  box-sizing: border-box;
+}
+
+page {
+  background: #F5F5F5;
+}
+
+.navigator-hover {
+  background: #eee!important;
+}
+
+.span weixin-parse-template {
+  margin: 0!important;
+}
+
+.text-hover {
+  background: transparent;
+	opacity: 0.5;
+}
+
+.bg-hover {
+  background: #eee!important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.solid {
+	border: 1upx solid #eee;
+}
+
+.no-more {
+  line-height: 88upx;
+  text-align: center;
+  color: #999;
+  font-size: 26upx;
+}
+.button{
+	height:100upx;
+	background:rgba(236,73,73,1);
+	border-radius:50px;
+	font-size: 34upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	position: relative;
+}
+.underLine{
+	width:46upx;
+	height:5upx;
+	margin:8upx auto 0;
+	position: relative;
+	background: transparent
+}
+.underLine.active{
+	background:rgba(250,62,63,1);
+}
+.underLine::before{
+	width: 6upx;
+	height: 5upx;
+	background: #fff;
+	position: absolute;
+	content:'';
+	top:0;
+	right:10upx;
+	transform: skewX(45deg);
+}
+
+
+

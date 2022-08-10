@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_li5p20ilokm.eot');
+    /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_li5p20ilokm.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_li5p20ilokm.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_li5p20ilokm.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_li5p20ilokm.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_li5p20ilokm.svg#Alibaba-PuHuiTi-Regular') format('svg');
+    /* iOS 4.1- */
+}
+
+.textEllipsis{ 
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.liveStatus {
+    position: absolute;
+    top: 8upx;
+    left: 10upx;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    @include flexbox($jc:center);
+    border-radius: 100px;
+    padding-right: 16upx;
+}
+.liveAn {
+        @include flexbox($jc:center);
+        background-image: linear-gradient(to right, #ffa468, #fa3f3f);
+        width: 28upx;
+        height: 24upx;
+        border-radius: 100px;
+        padding: 4upx 8upx;
+        margin-right: 8upx;
+        border-top-right-radius: 20upx;
+}
+.seeNum {
+        font-size: 24upx;
+        color: white;
+        line-height: 24upx;
+    }
+
+
+

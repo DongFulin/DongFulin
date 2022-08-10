@@ -1,0 +1,83 @@
+.oh() {
+  overflow: hidden;
+}
+ .extend-click(){
+ 		position: relative ;
+ 		&:before {
+ 			content: '';
+ 			position: absolute;
+ 			top: -10px;
+ 			left: -10px;
+ 			right: -10px;
+ 			bottom: -10px;
+ 		}
+   }
+/*文本超出几行出现省略号*/
+.text-line (@v: 3) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @v;
+  .oh;
+  text-overflow: ellipsis;
+}
+/*position 定位*/
+.position (@v: relative) {
+  position: @v;
+}
+.pr() {
+  .position;
+}
+.pa() {
+  .position(absolute);
+}
+.pf() {
+  .position(fixed);
+}
+/*水平垂直居中*/
+.vertical-center() {
+  .pa;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*border-radius 圆角*/
+.border-radius (@radius: 3px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+/*** 四边框*/
+.border(@color:#F5F9FF,@radius: 0){
+  &::after{
+	content: " ";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+		border:1px solid @color;
+		transform: scale(0.5);
+	}	
+}
+// 上边框
+.border-top(@color: #F5F9FF,@left: 0){
+  border-top: 1upx solid @color;
+}
+// 下边框
+.border-bottom(@color:#F5F9FF,@left: 0){
+  border-bottom: 1upx solid #f1f1f1;
+}
+// 做边框
+.border-left(@color: #F5F9FF; @top: 0)  {
+  border-left: 1upx solid @color;
+}
+// 右边框
+.border-right(@color: #dbdbdb; @top: 0)  {
+  border-right: 1upx solid @color;
+}
+
+	
+
