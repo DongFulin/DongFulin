@@ -2406,3 +2406,1269 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000589s ]
 [ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15) [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2022-08-10T20:04:01+08:00 ] 123.6.49.36 HEAD ywscs.com/
+[运行时间：0.040216s] [吞吐率：24.87req/s] [内存消耗：2,068.05kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://baidu.com',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; Mi Note 2 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.1.1',
+  'host' => 'ywscs.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-10T20:04:02+08:00 ] 123.6.49.36 HEAD ywscs.com/admin/login/index.html
+[运行时间：0.031592s] [吞吐率：31.65req/s] [内存消耗：2,860.82kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'https://ywscs.com',
+  'cookie' => 'PHPSESSID=oq40jb9renclqdu5bf4cv6rvdg',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; Mi Note 2 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.1.1',
+  'host' => 'ywscs.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000773s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/login/index.html [ array (
+  0 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.008289s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15) [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2022-08-10T20:36:21+08:00 ] 103.164.62.121 GET ywscs.com/
+[运行时间：0.017899s] [吞吐率：55.87req/s] [内存消耗：2,066.55kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-10T20:36:21+08:00 ] 103.164.62.121 GET ywscs.com/admin/login/index.html
+[运行时间：0.025821s] [吞吐率：38.73req/s] [内存消耗：2,856.34kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000927s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/login/index.html [ array (
+  0 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000261s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15) [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2022-08-10T20:36:22+08:00 ] 103.164.62.121 GET ywscs.com/
+[运行时间：0.017810s] [吞吐率：56.15req/s] [内存消耗：2,108.35kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A; Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'upgrade-insecure-requests' => '1',
+  'accept-language' => '*',
+  'accept-encoding' => '*, gzip, deflate',
+  'accept' => '*/*',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined offset: 1[/www/wwwroot/ywscs.com/thinkphp/library/think/Lang.php:204]
+---------------------------------------------------------------
+[ 2022-08-10T20:36:22+08:00 ] 103.164.62.121 GET ywscs.com/admin/login/index.html
+[运行时间：0.027186s] [吞吐率：36.78req/s] [内存消耗：2,900.21kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ub1f1ee7e0sc4651bvif7kvl3u',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A; Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'upgrade-insecure-requests' => '1',
+  'accept-language' => '*',
+  'accept-encoding' => '*, gzip, deflate',
+  'accept' => '*/*',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000954s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/login/index.html [ array (
+  0 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined offset: 1[/www/wwwroot/ywscs.com/thinkphp/library/think/Lang.php:204]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15) [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2022-08-10T23:39:19+08:00 ] 42.103.133.55 GET ywscs.com/favicon.ico
+[运行时间：0.170871s] [吞吐率：5.85req/s] [内存消耗：1,708.42kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-10T23:54:06+08:00 ] 42.103.133.55 GET ywscs.com/
+[运行时间：0.108004s] [吞吐率：9.26req/s] [内存消耗：2,076.34kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Sat, 27 Jan 2018 09:44:04 GMT',
+  'if-none-match' => 'W/"5a6c49e4-d84"',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://114.116.100.177:8888/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'cross-site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'cache-control' => 'max-age=0',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-10T23:54:06+08:00 ] 42.103.133.55 GET ywscs.com/admin/login/index.html
+[运行时间：0.379191s] [吞吐率：2.64req/s] [内存消耗：2,867.13kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=h0t275pg2oeq6ktajueo70luki',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://114.116.100.177:8888/',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'cross-site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.192752s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/login/index.html [ array (
+  0 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022083s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.011408s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15) [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2022-08-10T23:54:25+08:00 ] 42.103.133.55 POST ywscs.com/admin/login/index.html
+[运行时间：0.120685s] [吞吐率：8.29req/s] [内存消耗：3,216.58kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=h0t275pg2oeq6ktajueo70luki',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/login/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://ywscs.com',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'content-length' => '30',
+  'host' => 'ywscs.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000885s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`rolename`,`b`.`pri_id_list` FROM `sp_admin` `a` LEFT JOIN `sp_role` `b` ON `a`.`roleid`=`b`.`id` WHERE  `a`.`username` = 'admin'  AND `a`.`password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_privilege` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 0  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 155  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 156  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 52  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 1  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 5  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 3  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 4  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 6  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 7  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 74  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 121  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 122  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 114  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 127  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 87  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 13  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 14  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 15  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 16  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 45  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 46  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 68  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 136  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 137  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 138  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 139  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 149  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 159  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 101  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 126  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 103  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 104  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 106  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 109  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 108  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 105  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 140  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 141  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 158  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 119  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 157  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 89  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 21  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 70  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 75  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 91  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 71  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 77  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 124  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 76  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 72  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 80  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 116  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 93  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 92  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 85  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 81  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 82  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 84  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 94  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 69  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 95  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 97  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 115  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 117  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 143  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 144  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 145  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 161  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 111  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 112  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 49  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 51  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 79  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 131  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 98  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 135  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 142  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 57  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 58  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 59  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 54  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 55  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 56  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 17  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 18  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 19  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 20  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 128  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 129  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 130  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000306s ]
+[ sql ] [ SQL ] UPDATE `sp_admin`  SET `login_ip`='42.103.133.55',`login_time`='1660146865'  WHERE  `id` = 1 [ RunTime:0.004817s ]
+---------------------------------------------------------------
+[ 2022-08-10T23:54:27+08:00 ] 42.103.133.55 GET ywscs.com/admin/index/index.html
+[运行时间：0.039658s] [吞吐率：25.22req/s] [内存消耗：3,372.86kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=h0t275pg2oeq6ktajueo70luki',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/login/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000781s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/ywscs.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'configres',
+  1 => 'deliverOrderNum',
+  2 => 'paymentOrderNum',
+  3 => 'thApplyNum',
+  4 => 'countNum',
+  5 => 'menu',
+  6 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15,17) [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `shop_id` = 1  AND `state` = 1  AND `fh_status` = 0  AND `order_status` = 0 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `shop_id` = 1  AND `state` = 0  AND `fh_status` = 0  AND `order_status` = 0 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_th_apply` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_th_apply` WHERE  `apply_status` = 0 LIMIT 1 [ RunTime:0.000237s ]
+[ error ] [8]Use of undefined constant th_apply - assumed 'th_apply'[/www/wwwroot/ywscs.com/application/admin/controller/Index.php:27]
+[ error ] [8]未定义变量: lang_list[/www/wwwroot/ywscs.com/runtime/temp/5e296eff84ea4edc080fa20f0cc49f8e.php:115]
+---------------------------------------------------------------
+[ 2022-08-10T23:54:27+08:00 ] 42.103.133.55 GET ywscs.com/admin/index/dashboard.html
+[运行时间：0.064839s] [吞吐率：15.42req/s] [内存消耗：3,149.86kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'dashboard',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=h0t275pg2oeq6ktajueo70luki',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/index/index.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000805s ]
+[ info ] [ RUN ] app\admin\controller\Index->dashboard[ /www/wwwroot/ywscs.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/index/dashboard.html [ array (
+  0 => 'configres',
+  1 => 'wallet_price',
+  2 => 'order_num',
+  3 => 'month_order_num',
+  4 => 'deal_lv',
+  5 => 'dai_lv',
+  6 => 'shou_lv',
+  7 => 'month_salenum',
+  8 => 'month_tuinum',
+  9 => 'month_huannum',
+  10 => 'totalTurnover',
+  11 => 'memberNum',
+  12 => 'month',
+  13 => 'year',
+  14 => 'monthSalenumStr',
+  15 => 'monthTuinumStr',
+  16 => 'monthHuannumStr',
+  17 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15,17) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_pt_wallet` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_pt_wallet` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `state` = 1  AND `addtime` BETWEEN 1659283200 AND 1661961600 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `order_status` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `state` = 0 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `shouhou` = 1 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order_goods` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT SUM(goods_price) AS tp_sum FROM `sp_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_member` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_member` LIMIT 1 [ RunTime:0.000182s ]
+[ error ] [8]未定义变量: webtitle[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:7]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:8]
+[ error ] [8]未定义变量: description[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:9]
+---------------------------------------------------------------
+[ 2022-08-10T23:55:35+08:00 ] 42.103.133.55 GET ywscs.com/admin/login
+[运行时间：0.023820s] [吞吐率：41.98req/s] [内存消耗：2,864.46kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000786s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/login/index.html [ array (
+  0 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000216s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15) [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2022-08-10T23:55:37+08:00 ] 42.103.133.55 GET ywscs.com/favicon.ico
+[运行时间：0.016453s] [吞吐率：60.78req/s] [内存消耗：1,707.45kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/login',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-08-10T23:56:41+08:00 ] 42.103.133.55 POST ywscs.com/admin/login/index.html
+[运行时间：0.080528s] [吞吐率：12.42req/s] [内存消耗：3,214.56kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/login',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://ywscs.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'host' => 'ywscs.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.001225s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/ywscs.com/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000271s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`rolename`,`b`.`pri_id_list` FROM `sp_admin` `a` LEFT JOIN `sp_role` `b` ON `a`.`roleid`=`b`.`id` WHERE  `a`.`username` = 'admin'  AND `a`.`password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_privilege` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 0  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 155  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 156  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 52  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 1  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 5  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 3  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 4  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 6  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 7  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 74  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 121  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 122  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 114  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 127  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 87  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 13  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 14  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 15  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 16  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 45  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 46  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 68  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 136  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 137  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 138  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 139  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 149  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 159  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 101  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 126  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 103  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 104  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 106  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 109  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 108  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 105  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 140  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 141  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 158  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 119  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 157  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 89  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 21  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 70  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 75  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 91  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 71  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 77  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 124  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 76  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 72  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 80  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 116  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 93  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 92  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 85  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 81  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 82  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 84  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 94  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 69  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 95  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 97  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 115  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 117  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 143  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 144  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 145  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 161  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 111  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 112  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 49  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 51  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 79  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 131  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 98  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 135  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 142  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 57  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 58  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 59  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 54  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 55  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 56  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 17  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 18  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 19  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 20  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 128  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 129  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_privilege` WHERE  `pid` = 130  AND `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] UPDATE `sp_admin`  SET `login_ip`='42.103.133.55',`login_time`='1660147001'  WHERE  `id` = 1 [ RunTime:0.007007s ]
+---------------------------------------------------------------
+[ 2022-08-10T23:56:42+08:00 ] 42.103.133.55 GET ywscs.com/admin/index/index.html
+[运行时间：0.031483s] [吞吐率：31.76req/s] [内存消耗：3,371.05kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2; PHPSESSID=sk4h7cpjos39efg2dhjouhfd21',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/login',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000811s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/ywscs.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'configres',
+  1 => 'deliverOrderNum',
+  2 => 'paymentOrderNum',
+  3 => 'thApplyNum',
+  4 => 'countNum',
+  5 => 'menu',
+  6 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15,17) [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `shop_id` = 1  AND `state` = 1  AND `fh_status` = 0  AND `order_status` = 0 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `shop_id` = 1  AND `state` = 0  AND `fh_status` = 0  AND `order_status` = 0 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_th_apply` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_th_apply` WHERE  `apply_status` = 0 LIMIT 1 [ RunTime:0.000154s ]
+[ error ] [8]Use of undefined constant th_apply - assumed 'th_apply'[/www/wwwroot/ywscs.com/application/admin/controller/Index.php:27]
+[ error ] [8]未定义变量: lang_list[/www/wwwroot/ywscs.com/runtime/temp/5e296eff84ea4edc080fa20f0cc49f8e.php:115]
+---------------------------------------------------------------
+[ 2022-08-10T23:56:42+08:00 ] 42.103.133.55 GET ywscs.com/admin/index/dashboard.html
+[运行时间：0.042909s] [吞吐率：23.31req/s] [内存消耗：3,148.48kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'dashboard',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2; PHPSESSID=sk4h7cpjos39efg2dhjouhfd21',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/index/index.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000820s ]
+[ info ] [ RUN ] app\admin\controller\Index->dashboard[ /www/wwwroot/ywscs.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/index/dashboard.html [ array (
+  0 => 'configres',
+  1 => 'wallet_price',
+  2 => 'order_num',
+  3 => 'month_order_num',
+  4 => 'deal_lv',
+  5 => 'dai_lv',
+  6 => 'shou_lv',
+  7 => 'month_salenum',
+  8 => 'month_tuinum',
+  9 => 'month_huannum',
+  10 => 'totalTurnover',
+  11 => 'memberNum',
+  12 => 'month',
+  13 => 'year',
+  14 => 'monthSalenumStr',
+  15 => 'monthTuinumStr',
+  16 => 'monthHuannumStr',
+  17 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000188s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15,17) [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_pt_wallet` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_pt_wallet` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `state` = 1  AND `addtime` BETWEEN 1659283200 AND 1661961600 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `order_status` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `state` = 0 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `shouhou` = 1 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order_goods` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT SUM(goods_price) AS tp_sum FROM `sp_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_member` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_member` LIMIT 1 [ RunTime:0.000136s ]
+[ error ] [8]未定义变量: webtitle[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:7]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:8]
+[ error ] [8]未定义变量: description[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:9]
+---------------------------------------------------------------
+[ 2022-08-10T23:57:23+08:00 ] 42.103.133.55 GET ywscs.com/admin/index/index.html
+[运行时间：0.030172s] [吞吐率：33.14req/s] [内存消耗：3,371.03kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2; PHPSESSID=sk4h7cpjos39efg2dhjouhfd21',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000795s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/ywscs.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/index/index.html [ array (
+  0 => 'configres',
+  1 => 'deliverOrderNum',
+  2 => 'paymentOrderNum',
+  3 => 'thApplyNum',
+  4 => 'countNum',
+  5 => 'menu',
+  6 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000286s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15,17) [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `shop_id` = 1  AND `state` = 1  AND `fh_status` = 0  AND `order_status` = 0 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `shop_id` = 1  AND `state` = 0  AND `fh_status` = 0  AND `order_status` = 0 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_th_apply` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_th_apply` WHERE  `apply_status` = 0 LIMIT 1 [ RunTime:0.000144s ]
+[ error ] [8]Use of undefined constant th_apply - assumed 'th_apply'[/www/wwwroot/ywscs.com/application/admin/controller/Index.php:27]
+[ error ] [8]未定义变量: lang_list[/www/wwwroot/ywscs.com/runtime/temp/5e296eff84ea4edc080fa20f0cc49f8e.php:115]
+---------------------------------------------------------------
+[ 2022-08-10T23:57:23+08:00 ] 42.103.133.55 GET ywscs.com/admin/index/dashboard.html
+[运行时间：0.041588s] [吞吐率：24.05req/s] [内存消耗：3,148.48kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ LANG ] /www/wwwroot/ywscs.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'dashboard',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'JSESSIONID=AFAE68A6AD1108FE9B4BA3D1BB7D0FF2; PHPSESSID=sk4h7cpjos39efg2dhjouhfd21',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://ywscs.com/admin/index/index.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'ywscs.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.000867s ]
+[ info ] [ RUN ] app\admin\controller\Index->dashboard[ /www/wwwroot/ywscs.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ywscs.com/public/../application/admin/view/index/dashboard.html [ array (
+  0 => 'configres',
+  1 => 'wallet_price',
+  2 => 'order_num',
+  3 => 'month_order_num',
+  4 => 'deal_lv',
+  5 => 'dai_lv',
+  6 => 'shou_lv',
+  7 => 'month_salenum',
+  8 => 'month_tuinum',
+  9 => 'month_huannum',
+  10 => 'totalTurnover',
+  11 => 'memberNum',
+  12 => 'month',
+  13 => 'year',
+  14 => 'monthSalenumStr',
+  15 => 'monthTuinumStr',
+  16 => 'monthHuannumStr',
+  17 => 'webconfig',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:host=localhost;port=3306;dbname=ywscs_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_config` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `sp_config` WHERE  `ca_id` IN (1,2,4,5,10,15,17) [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_pt_wallet` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_pt_wallet` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `state` = 1  AND `addtime` BETWEEN 1659283200 AND 1661961600 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `order_status` = 1 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `state` = 0 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order` WHERE  `addtime` BETWEEN 1659283200 AND 1661961600  AND `shouhou` = 1 LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_order_goods` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND ( `b`.`addtime` >= 1659283200 AND `b`.`addtime` < 1672502400 ) LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 1 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 2 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 3 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 4 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 5 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 6 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 7 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 8 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 9 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 10 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 11 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('1','2','3','4')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_order_goods` `a` INNER JOIN `sp_order` `b` ON `a`.`order_id`=`b`.`id` WHERE  `a`.`th_status` IN ('5','6','7','8')  AND `b`.`state` = 1  AND (  FROM_UNIXTIME(b.addtime,'%m') = 12 )  AND `b`.`addtime` > 1640966400 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT SUM(goods_price) AS tp_sum FROM `sp_order` WHERE  `state` = 1 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_member` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_member` LIMIT 1 [ RunTime:0.000174s ]
+[ error ] [8]未定义变量: webtitle[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:7]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:8]
+[ error ] [8]未定义变量: description[/www/wwwroot/ywscs.com/runtime/temp/cdadae35d7381cdb7b2aa8bf2f322c61.php:9]
